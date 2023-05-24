@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    height: 50px;
+
+    ul{
+        display: flex;
+    }
+    li{
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+  }
+  
