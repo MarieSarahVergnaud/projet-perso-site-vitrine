@@ -13,16 +13,21 @@
     --color-bg-variant: #e2dfa7c3;
     --color-primary: #E9C46A;
     --color-primary-variant: #F4A261;
-    --color-secondary: #E76F51;
+    --color-secondary:var(--color-primary-variant);
     
 }
 
 body,
-html {
-    background-color: var(--color-bg-variant);
+html, #root {
+    background-color:white;
     width: 100%;
     height: 100%;
     font-family: 'Courgette', cursive;
    
      
 }
+
+h1 {
+    font-size: 2.5em;
+
+  }

@@ -1,16 +1,20 @@
-
-import NavBar from './composants/navbar'
+import Header from './composants/Header';
+import Router from './composants/Router';
+import Footer from './composants/Footer';
 
 function App() {
 
   return (
-    <>
-      <div className='bandeau'>
-      <h1>Mara LeChat & Co</h1>
-       <NavBar />
-      </div>
-      
-    </>
+    
+    <div className='App'>
+       <Header />
+       <main className='app_main'>
+       <Router />   
+       </main>
+       <Footer />
+    </div>  
+    
+
   )
 }
 
